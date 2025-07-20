@@ -27,9 +27,7 @@ application {
 dependencies {
   implementation(platform("io.vertx:vertx-stack-depchain:$vertxVersion"))
   implementation("io.vertx:vertx-launcher-application")
-  implementation("io.vertx:vertx-web-client")
   implementation("io.vertx:vertx-web")
-  implementation("io.vertx:vertx-web-api-contract")
   testImplementation("io.vertx:vertx-junit5")
   testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
 }
